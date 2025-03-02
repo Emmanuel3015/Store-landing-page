@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdhZGdldHN8ZW58MHwwfDB8fHww') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Source Code Pro", monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+div h1{
+    font-size: 4rem;
+}
+
+
+
+/* Products Section */
+.Products {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.Products .row {
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body{
+    text-align: left;
+}
+
+
+/* Hovering effects */
+.fa-whatsapp:hover{
+    color: #25d366;
+}
+
+.fa-telegram:hover{
+    color: #0088cc;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.container button:hover{
+    background-color: #d96719;
+}
+
+.btn:hover{
+    background-color: #d96719;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #d96719;
+}
+
+/* Media queries */
+
+@media only screen and (max-width:600px){
+   div h1{
+        font-size: 1.85rem;
+    }
+
+    .hero .btn{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    div h1{
+         font-size: 2.5rem;
+     }
+ 
+     .hero .btn{
+         font-size: 16px;
+     }
+ }
+
+@media only screen and (min-width:768px){
+    div h1{
+         font-size: 3.5rem;
+     }
+ 
+     .hero .btn{
+         font-size: 18px;
+     }
+ }
+
+ @media only screen and (min-width:992px){
+    div h1{
+         font-size: 4.5rem;
+     }
+ 
+}
+
+@media only screen and (min-width:1200px){
+    div h1{
+         font-size: 5.5rem;
+     }
+ 
+}
